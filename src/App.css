@@ -1,42 +1,76 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+ /* .booking-card {
+  width: 300px;
+  height:175;
+  border-radius: 10px;
+  background-color: #EEf6f6;
+  padding: 15px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Arial, sans-serif;
+}
+.booking-id{
+  text-decoration: underline;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.check-icon {
+  font-size: 18px;
+
+   background-color: #47e5e7; 
+  border-radius: 50%;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.card-body {
+  margin-top: 10px;
 }
 
-.card {
-  padding: 2em;
+.card-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
 
-.read-the-docs {
-  color: #888;
+.color-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
 }
+#hash-design{
+  opacity: 0.4;
+
+
+}
+
+.black {
+  background-color: black;
+}
+
+.seat-detail {
+  font-size: 16px;
+}
+
+.floor-info {
+  font-size: 12px;
+  color: gray;
+}
+
+.booking-info {
+  margin-top: 8px;
+}
+
+.card-footer {
+  margin-top: 15px;
+  font-size: 12px;
+  color: gray;
+  text-align: right;
+}  */
+
