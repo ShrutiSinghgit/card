@@ -6,25 +6,29 @@ import './App.css'
    import  ErrorOccuredCard from './Components/ErrorOccuredCard'
  import  WaitingCard  from './Components/WaitingCard'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-   
+  
   
   <div>
 <div>
 <SuccessfulCard/>
 </div>
+<br/>
+<div>
+  <ErrorOccuredCard/>
+</div>
+
+
 
 <br/>
 <div>
   <UnsuccessfullCard/>
 </div>
 <br/>
-<div>
-  <ErrorOccuredCard/>
-</div>
-<br/>
+
+
+
+
 <div>
   <WaitingCard/>
 </div>

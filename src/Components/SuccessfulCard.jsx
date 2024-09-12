@@ -1,6 +1,6 @@
 import React from 'react'
-
-const SuccessfulCard = () => {
+import "../ComponentCss/SuccessfulCard.css"
+const SuccessfullCard = () => {
   return (
     <div className="booking-card">
     <div className="card-header">
@@ -33,4 +33,4 @@ const SuccessfulCard = () => {
   )
 }
 
-export default SuccessfulCard
+export default SuccessfullCard

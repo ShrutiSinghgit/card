@@ -1,4 +1,4 @@
-.card-container {
+/* .card-container {
     width: 300px;
     padding: 20px;
     border-radius: 15px;
@@ -65,4 +65,50 @@
     font-weight: bold;
     font-size: 16px;
   }
+   */
+   .card {
+    background-color: #00a0e9;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+  }
   
+  .card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .card .info .icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card .info .icon svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+    margin-right: 5px;
+  }
+  
+  .card .info .text {
+    font-size: 16px;
+  }
+  
+  .card .status {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card .booked {
+    font-size: 14px;
+    color: #888;
+  }
