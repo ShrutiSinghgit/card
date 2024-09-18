@@ -1,0 +1,73 @@
+.card-container {
+    background-color: #EEf6f6;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    width: 300px;
+    height:150px;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .card-icon {
+    background-color: #e0d8fc;
+    color: #9b51e0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .card-content {
+    margin: 15px 0;
+  }
+  
+  .car-info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #222;
+  }
+  
+  .car-info .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  .payment-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .payment-status {
+    color: green;
+    font-weight: 600;
+  }
+  
+  .card-footer {
+    font-size: 12px;
+    color: gray;
+    text-align: right;
+  }
+  

@@ -2,9 +2,10 @@ import { useState } from 'react'
 import './App.css'
 
   import SuccessfulCard from './Components/SuccessfulCard'
-  import UnsuccessfullCard from './Components/UnsuccessfullCard'
+  import CheckingCard from './Components/CheckingCard'
    import  ErrorOccuredCard from './Components/ErrorOccuredCard'
  import  WaitingCard  from './Components/WaitingCard'
+ import  CheckoutCard  from './Components/CheckoutCard'
 function App() {
   return (
   
@@ -22,7 +23,12 @@ function App() {
 
 <br/>
 <div>
-  <UnsuccessfullCard/>
+  <CheckingCard/>
+</div>
+<br/>
+<br/>
+<div>
+  <CheckoutCard/>
 </div>
 <br/>
 
