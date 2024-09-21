@@ -1,0 +1,91 @@
+.booking-card-3 {
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #EEf6f6;
+    padding: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial, sans-serif;
+  }
+  
+  .booking-id-3 {
+    text-decoration: underline;
+    text-underline-offset: 10px; /* add a 3px gap between the underline and the text */
+    text-decoration-color: #ff04f2; /* change the underline color to blue */
+    text-decoration-thickness: 4px; /* make the underline thicker (2px) */
+    text-decoration-skip-ink: 4px; /* make the underline extend the full length of the text */
+  }
+  
+  .card-header-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .check-icon-3 {
+    font-size: 18px;
+    background-color: #ff04f2;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .card-body-3 {
+    margin-top: 10px;
+  }
+  
+  .card-detail-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .color-dot-3 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  #hash-design-3 {
+    opacity: 0.4;
+    font-size: 20px;
+    margin-left: 10px; /* add a 3px gap between the underline and the text */
+    margin-right: 10px;
+  }
+  
+  .black {
+    background-color: black;
+    margin-left: 15px;
+  }
+  
+  .seat-detail-3 {
+    font-size: 16px;
+  }
+  
+  .floor-info-3 {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .booking-info-3 {
+    margin-top: 26px;
+    
+  }
+  
+  .sucessfull-3 {
+    color: rgb(0, 255, 0);
+  }
+  
+  .card-footer-3 {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #ff04f2;
+    text-align: right;
+  }
+  
+  .payment-type-3 {
+    margin-left: 15px;
+  }

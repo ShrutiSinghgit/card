@@ -1,75 +1,82 @@
-.booking-card {
-    width: 300px;
-    height:150px;
-    border-radius: 10px;
-    background-color: #EEf6f6;
-    padding: 15px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Arial, sans-serif;
-  }
-  .booking-id{
-    text-decoration: underline;
-  }
-  
-  .card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .check-icon {
-    font-size: 18px;
-  
-     background-color: #47e5e7; 
-    border-radius: 50%;
-    padding: 5px;
-  }
-  
-  .card-body {
-    margin-top: 10px;
-  }
-  
-  .card-detail {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 8px;
-  }
-  
-  .color-dot {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 8px;
-  }
-  #hash-design{
-    opacity: 0.4;
-  
-  
-  }
-  
-  .black {
-    background-color: black;
-  }
-  
-  .seat-detail {
-    font-size: 16px;
-  }
-  
-  .floor-info {
-    font-size: 12px;
-    color: gray;
-  }
-  
-  .booking-info {
-    margin-top: 8px;
-  }
-  
-  .card-footer {
-    margin-top: 15px;
-    font-size: 12px;
-    color: gray;
-    text-align: right;
-  }
+.booking-card-1 {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #EEf6f6;
+  padding: 15px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Arial, sans-serif;
+}
+.booking-id-1 {
+  text-decoration: underline;
+  text-underline-offset: 10px; /* add a 3px gap between the underline and the text */
+  text-decoration-color: #47e5e7; /* change the underline color to blue */
+  text-decoration-thickness: 4px; /* make the underline thicker (2px) */
+  text-decoration-skip-ink: 4px; /* make the underline extend the full length of the text */
+}
+
+.card-header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.check-icon-1 {
+  font-size: 18px;
+  background-color: #47e5e7;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.card-body-1 {
+  margin-top: 10px;
+}
+
+.card-detail-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.color-dot-1 {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+#hash-design-1 {
+  opacity: 0.4;
+  font-size: 20px;
+}
+
+.black {
+  background-color: black;
+  margin-left: 15px;
+}
+
+.seat-detail-1 {
+  font-size: 16px;
+}
+
+.floor-info-1 {
+  font-size: 12px;
+  color: gray;
+}
+
+.booking-info-1 {
+  margin-top: 26px;
+}
+
+.card-footer-1 {
+  margin-top: 15px;
+  font-size: 12px;
+  color: gray;
+  text-align: right;
+}
+
+/*popup effect*/
+
