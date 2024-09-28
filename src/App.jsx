@@ -39,6 +39,10 @@ function App() {
   <WaitingCard/>
 </div>
 
+<div>
+  <checking/>
+</div>
+
   </div>
  )
 }

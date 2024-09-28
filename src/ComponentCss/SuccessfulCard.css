@@ -8,7 +8,13 @@
     font-family: Arial, sans-serif;
   }
   .booking-id{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+    border-bottom: 4px solid #4bc2ed; /* Bold underline */
+    padding-bottom: 2px;
   }
   
   .card-header {
@@ -46,8 +52,7 @@
   }
   #hash-design{
     opacity: 0.4;
-  
-  
+
   }
   
   .black {

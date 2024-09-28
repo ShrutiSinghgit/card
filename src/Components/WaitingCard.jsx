@@ -24,13 +24,13 @@ const Card = () => {
             </span>
           </div>
           <div className="card-info-item">
-            <span className="card-info-label">06. A2</span>
+            <span className="card-info-label">06, A2</span>
             <span className="card-info-value">ground floor</span>
           </div>
         </div>
         <div className="card-expected">
-          <span className="card-expected-label">Expected arrival:</span>
-          <span className="card-expected-value">11:57 pm</span>
+          <span className="card-expected-label">Expected arrival:<strong>11:57</strong></span>
+          {/* <span className="card-expected-value">11:57 pm</span> */}
         </div>
         <div className="card-footer">
           Booked 25 mins ago

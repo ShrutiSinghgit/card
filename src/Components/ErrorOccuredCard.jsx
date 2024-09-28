@@ -10,7 +10,7 @@ const ErrorOccuredCard = () => {
       </div>
       <div className="card-content">
         <span className="color-info">Black ●</span>
-        <span className="location-info">06, A2 ground floor</span>
+        <span className="location-info"><strong>06</strong>, A2 ground floor</span>
       </div>
       <div className="error-message">Error Occured</div>
     </div>

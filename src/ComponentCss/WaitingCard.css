@@ -27,7 +27,7 @@
   }
   
   .card-icon svg {
-    fill: yellow;
+    fill: rgb(252, 252, 4);
   }
   
   .card-body {
@@ -58,9 +58,8 @@
     margin-bottom: 5px;
   }
   
-  .card-expected-label {
-    font-weight: bold;
-  }
+  
+  
   
   .card-footer {
     font-size: 12px;

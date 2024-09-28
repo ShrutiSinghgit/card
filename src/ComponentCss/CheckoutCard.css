@@ -1,4 +1,4 @@
-.card-container {
+/* .card-container {
     background-color: #EEf6f6;
     border-radius: 15px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -36,14 +36,32 @@
   
   .card-content {
     margin: 15px 0;
-  }
-  
-  .car-info {
     display: flex;
+   
+  } */
+  
+  /* .car-info {
+   
     align-items: center;
     font-size: 14px;
     color: #222;
+  } */
+
+  /* .car-info, .payment-info {
+    display: block;
+    margin-bottom: 10px;
   }
+  
+  .car-info span {
+    display: inline-block; 
+    margin-right: 10px;
+  }
+  
+  .payment-info span {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
   
   .car-info .dot {
     width: 8px;
@@ -53,14 +71,13 @@
     margin: 0 10px;
   }
   
-  .payment-info {
-    display: flex;
-    justify-content: space-between;
+  /* .payment-info {
+ 
     font-size: 14px;
     margin-top: 10px;
-  }
+  } */
   
-  .payment-status {
+  /* .payment-status {
     color: green;
     font-weight: 600;
   }
@@ -68,6 +85,77 @@
   .card-footer {
     font-size: 12px;
     color: gray;
+    text-align: right;
+  }
+   */ 
+   .car-card {
+    background-color: #EEf6f6;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    position: relative;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .car-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .upload-icon {
+    background-color: #d9f0ff;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrow-icon {
+    font-size: 1.2em;
+    color: #050806;
+  }
+  
+  .divider {
+    border: 1px solid #d4aefc;
+    margin: 10px 0;
+  }
+  
+  .car-info, .payment-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .car-info span, .payment-info span {
+    margin-right: 10px;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .payment-status {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .checkout-info {
+    font-size: 0.8em;
+    color: #999;
     text-align: right;
   }
   

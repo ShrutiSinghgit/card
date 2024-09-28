@@ -15,8 +15,15 @@
   }
   
   .card-id {
-    font-weight: bold;
-    font-size: 18px;
+    
+      /* text-decoration: underline; */
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 0;
+      display: inline-block;
+      border-bottom: 4px solid #f24b08; /* Bold underline */
+      padding-bottom: 2px;
+    
   }
   
   .close-button {
